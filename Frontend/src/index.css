@@ -1,0 +1,17 @@
+@font-face {
+  font-family: ProductSans;
+  src: url(../src/Assets/Fonts/ProductSansRegular.ttf)
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+@media (min-width: 900px) {
+  * {
+      font-size: 16px;
+  }
+}
